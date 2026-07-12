@@ -1,0 +1,6 @@
+# LifeOS offsite store — только зашифрованные бандлы и лог уходят в offsite.
+# Всё остальное (plaintext, staging, lock, ключи) остаётся ЛОКАЛЬНО.
+*
+!.gitignore
+!*.age
+!backup.log
